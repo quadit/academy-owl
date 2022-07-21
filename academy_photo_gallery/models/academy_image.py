@@ -5,9 +5,13 @@
 from odoo import models, fields, _
 
 class AcademyImage(models.Model):
+
+
     _name = 'academy.image'
     _order = 'create_date desc'
     _description = 'Image of Gallery'
+    _rec_name = 'title'
+
 
     image_1920 = fields.Image(string='Image', max_width=1920, max_height=1920, required=True)
     image_128 = fields.Image(string='Image 128', related='image_1920', max_width=128, max_height=128, store=True)
