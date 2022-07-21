@@ -22,7 +22,11 @@
     ],
     'assets': {
         'web.assets_frontend': [
-            'academy_photo_gallery/static/src/js/components/GalleryScreen.js',
+            'academy_photo_gallery/static/src/scss/styles.scss',
+            'academy_photo_gallery/static/src/js/components/GalleryItem.js',
+            'academy_photo_gallery/static/src/js/components/GalleryList.js',
+            'academy_photo_gallery/static/src/js/components/GallerySearch.js',
+            'academy_photo_gallery/static/src/js/components/GalleryWidget.js',
         ],
     },
     'installable': True,

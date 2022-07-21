@@ -4,7 +4,7 @@
         <t t-call="website.layout">
             <t t-set="pageName" t-valuef="gallery"/>
             <div id="wrap" class="oe_structure">
-                <section id="GalleryScreen"/>
+                <section id="GalleryWidget"/>
             </div>
         </t>
     </template>
