@@ -2,7 +2,6 @@
 
 import GalleryList from 'academy_photo_gallery.gallery_list'
 import GallerySearch from 'academy_photo_gallery.gallery_search'
-import { useBus } from "@web/core/utils/hooks";
 const { useListener } = require('web.custom_hooks');
 import { query } from 'web.rpc'
 const { Component } = owl;
@@ -22,7 +21,6 @@ class GalleryWidget extends Component {
             <div class="row my-5">
                 <GalleryList images="imagesToDisplay" searchWord="searchWord"/>
             </div>
-            <input t-on-keyup="updateTest" t-ref="update-test" type="text"/>
         </div>
     </t>`;
     static components = {
@@ -33,27 +31,21 @@ class GalleryWidget extends Component {
         this.state = useState({
             searchWord: '',
         });
-        console.log('setup 2');
         useListener('update-search', this._updateSearch);
     }
     async willStart() {
-        this.images = await this._getImages();
-        
+        this.images = [];
+        this.defaultImages = await this._getImages();
     }
     get imagesToDisplay() {
-        if(this.searchWord != '') {
-            return this._getImages();
+        return this.images && this.images.length ? this.images : this.defaultImages;
+    }
+    async _updateSearch(ev) {
+        if (ev.detail != '') {
+            this.images = await this._getImages();
+        } else {
+            this.images = [];
         }
-        return this.images;
-    }
-    updateTest(ev) {
-        this.trigger('update-test', ev.target.value)
-    }
-    _updateSearch(ev) {
-        console.log('_updateSearch');
-        console.log(ev);
-        // this.searchWord = ev.target.value;
-        // this.imagesToDisplay();
     }
     get searchWord() {
         return this.state.searchWord.trim();
