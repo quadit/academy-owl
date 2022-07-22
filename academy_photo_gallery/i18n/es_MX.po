@@ -1,0 +1,145 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* academy_photo_gallery
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 15.0+e-20220307\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-07-21 00:35+0000\n"
+"PO-Revision-Date: 2022-07-20 19:36-0500\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: \n"
+"X-Generator: Poedit 3.0.1\n"
+
+#. module: academy_photo_gallery
+#: model:ir.ui.menu,name:academy_photo_gallery.id_main_new
+msgid "Academy Photo Gallery"
+msgstr "Academy Galería de fotos"
+
+#. module: academy_photo_gallery
+#: model_terms:ir.ui.view,arch_db:academy_photo_gallery.academy_image_form_view
+msgid "Add image"
+msgstr "Agregar imagen"
+
+#. module: academy_photo_gallery
+#: model_terms:ir.ui.view,arch_db:academy_photo_gallery.academy_image_form_view
+msgid "Cancel"
+msgstr "Cancelar"
+
+#. module: academy_photo_gallery
+#: model:ir.model.fields.selection,name:academy_photo_gallery.selection__academy_image__state__cancel
+msgid "Cancelled"
+msgstr "Cancelado"
+
+#. module: academy_photo_gallery
+#: model:ir.model.fields,field_description:academy_photo_gallery.field_academy_image__create_uid
+msgid "Created by"
+msgstr "Creado por"
+
+#. module: academy_photo_gallery
+#: model:ir.model.fields,field_description:academy_photo_gallery.field_academy_image__create_date
+msgid "Created on"
+msgstr "Creado en"
+
+#. module: academy_photo_gallery
+#: model:ir.model.fields,field_description:academy_photo_gallery.field_academy_image__description
+msgid "Description"
+msgstr "Descripción"
+
+#. module: academy_photo_gallery
+#: model:ir.model.fields,field_description:academy_photo_gallery.field_academy_image__display_name
+msgid "Display Name"
+msgstr "Nombre mostrado"
+
+#. module: academy_photo_gallery
+#: model:ir.model.fields.selection,name:academy_photo_gallery.selection__academy_image__state__draft
+msgid "Draft"
+msgstr "Borrador"
+
+#. module: academy_photo_gallery
+#: model:website.menu,name:academy_photo_gallery.menu_gallery
+msgid "Gallery"
+msgstr "Galería"
+
+#. module: academy_photo_gallery
+#: model:ir.model.fields,field_description:academy_photo_gallery.field_academy_image__id
+msgid "ID"
+msgstr "ID"
+
+#. module: academy_photo_gallery
+#: model:ir.model.fields,field_description:academy_photo_gallery.field_academy_image__image_1920
+#: model_terms:ir.ui.view,arch_db:academy_photo_gallery.academy_image_kanban_view
+msgid "Image"
+msgstr "Imagen"
+
+#. module: academy_photo_gallery
+#: model:ir.model.fields,field_description:academy_photo_gallery.field_academy_image__image_128
+msgid "Image 128"
+msgstr "Imagen 128"
+
+#. module: academy_photo_gallery
+#: model:ir.model,name:academy_photo_gallery.model_academy_image
+msgid "Image of Gallery"
+msgstr "Imagen de la galería"
+
+#. module: academy_photo_gallery
+#: model:ir.actions.act_window,name:academy_photo_gallery.act_academy_image
+#: model:ir.ui.menu,name:academy_photo_gallery.id_academy_images
+msgid "Images"
+msgstr "Imagenes"
+
+#. module: academy_photo_gallery
+#: model:ir.model.fields,field_description:academy_photo_gallery.field_academy_image____last_update
+msgid "Last Modified on"
+msgstr "Última modificación el"
+
+#. module: academy_photo_gallery
+#: model:ir.model.fields,field_description:academy_photo_gallery.field_academy_image__write_uid
+msgid "Last Updated by"
+msgstr "Última actualización por"
+
+#. module: academy_photo_gallery
+#: model:ir.model.fields,field_description:academy_photo_gallery.field_academy_image__write_date
+msgid "Last Updated on"
+msgstr "Última modificación en"
+
+#. module: academy_photo_gallery
+#: model:ir.model.fields,field_description:academy_photo_gallery.field_academy_image__likes
+msgid "Likes"
+msgstr "Me gusta"
+
+#. module: academy_photo_gallery
+#: model_terms:ir.ui.view,arch_db:academy_photo_gallery.academy_image_kanban_view
+msgid "Likes:"
+msgstr "Me gusta:"
+
+#. module: academy_photo_gallery
+#: model_terms:ir.ui.view,arch_db:academy_photo_gallery.academy_image_form_view
+msgid "Post"
+msgstr "Publicar"
+
+#. module: academy_photo_gallery
+#: model:ir.model.fields.selection,name:academy_photo_gallery.selection__academy_image__state__posted
+msgid "Posted"
+msgstr "Publicado"
+
+#. module: academy_photo_gallery
+#: model_terms:ir.ui.view,arch_db:academy_photo_gallery.academy_image_form_view
+msgid "Reset to Draft"
+msgstr "Borrador"
+
+#. module: academy_photo_gallery
+#: model:ir.model.fields,field_description:academy_photo_gallery.field_academy_image__state
+msgid "Status"
+msgstr "Estado"
+
+#. module: academy_photo_gallery
+#: model:ir.model.fields,field_description:academy_photo_gallery.field_academy_image__title
+msgid "Title"
+msgstr "Título"

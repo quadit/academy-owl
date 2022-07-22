@@ -1,0 +1,16 @@
+section#GalleryWidget {
+    #GalleryList {
+        #GalleryItem {
+            .card {
+                img {
+                    height: 100px;
+                }
+                p#likes {
+                    font-size: small;
+                    font-weight: bolder;
+                    margin-bottom: 0 !important;
+                }
+            }
+        }
+    }
+}
