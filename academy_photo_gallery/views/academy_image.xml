@@ -69,6 +69,6 @@
         <field name="view_id" ref="academy_image_kanban_view"/>
     </record>
 
-    <menuitem id="id_main_new" name="Academy Photo Gallery" web_icon="account,static/description/icon.png"/>
+    <menuitem id="id_main_new" name="Academy Photo Gallery" web_icon="academy_photo_gallery,static/description/icon.png"/>
     <menuitem id="id_academy_images" parent="id_main_new" name="Images" action="act_academy_image"/>
 </odoo>
